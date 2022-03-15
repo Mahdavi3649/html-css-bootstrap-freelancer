@@ -3,15 +3,12 @@
 }
 
 :root {
-  background: #c4c4c4;
   --bg_banner: #1abc9c;
-  background: #0e38b5;
-  background: #1c83c1;
-  background: #1ea4b6;
+
+  --bg-darker: #2c3e50;
+
   --bg-header: #2c3e50;
-  background: #3a546d;
-  background: #ba4b63;
-  background: #ccb2a3;
+  --bg-footer: #3a546d;
 }
 
 .green_bg {
@@ -22,8 +19,14 @@
   background-color: var(--bg-header);
 }
 
-.container .row img {
-  width: 160px;
+.first_section .container .row img {
+  width: 180px;
+}
+
+/*second-section*/
+.second_section .container .row .col img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .nav-link {
@@ -38,6 +41,10 @@
   font-size: 12px;
 }
 
+.font-s-9 {
+  font-size: 9px;
+}
+
 .third-section .container button {
   border: 1px solid white;
   color: white;
@@ -49,4 +56,34 @@
 
 .star_white {
   color: white;
+}
+
+.bg-footer {
+  background-color: var(--bg-footer);
+}
+
+.bg-darker {
+  background-color: var(--bg-darker);
+}
+
+.green-text {
+  color: var(--bg_banner);
+}
+
+footer .footer-social {
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 36px;
+  height: 35px;
+  position: relative;
+  margin: 0 3px;
+}
+
+footer .footer-social i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
