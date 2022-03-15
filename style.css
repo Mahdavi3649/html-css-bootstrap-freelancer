@@ -24,7 +24,7 @@
 }
 
 /*second-section*/
-.second_section .container .row .col img {
+#second_section .container .row .col img {
   width: 100%;
   border-radius: 10px;
 }
@@ -45,7 +45,7 @@
   font-size: 9px;
 }
 
-.third-section .container button {
+#third_section .container button {
   border: 1px solid white;
   color: white;
 }
