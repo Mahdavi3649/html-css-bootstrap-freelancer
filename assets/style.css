@@ -9,7 +9,7 @@
   --bg-footer: #3a546d;
 }
 
-.green_bg {
+.bg_green {
   background-color: var(--bg_banner);
 }
 
@@ -21,7 +21,6 @@
   width: 180px;
 }
 
-/*second-section*/
 #portfolio .container .row .col img {
   width: 100%;
   border-radius: 10px;
