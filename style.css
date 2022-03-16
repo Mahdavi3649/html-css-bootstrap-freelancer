@@ -4,9 +4,7 @@
 
 :root {
   --bg_banner: #1abc9c;
-
   --bg-darker: #2c3e50;
-
   --bg-header: #2c3e50;
   --bg-footer: #3a546d;
 }
@@ -19,12 +17,12 @@
   background-color: var(--bg-header);
 }
 
-.first_section .container .row img {
+.jumbotron .container .row img {
   width: 180px;
 }
 
 /*second-section*/
-#second_section .container .row .col img {
+#portfolio .container .row .col img {
   width: 100%;
   border-radius: 10px;
 }
@@ -45,12 +43,12 @@
   font-size: 9px;
 }
 
-#third_section .container button {
+#about .container button {
   border: 1px solid white;
   color: white;
 }
 
-.third-section h2 {
+#about h2 {
   color: white;
 }
 
