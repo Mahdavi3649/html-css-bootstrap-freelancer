@@ -84,3 +84,27 @@ footer .footer-social i {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.star_white::before,
+.star_white::after,
+.star_dark::before,
+.star_dark::after {
+  content: "";
+  display: inline-block;
+  width: 110px;
+  height: 3px;
+}
+
+.jumbotron .star_white::after,
+.jumbotron .star_white::before,
+#about .star_white::after,
+#about .star_white::before {
+  background-color: white;
+}
+
+#portfolio .star_dark::after,
+#portfolio .star_dark::before,
+#contacts .star_dark::after,
+#contacts .star_dark::before {
+  background-color: black;
+}
